@@ -13,47 +13,47 @@ body {
 }
 .main {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 1.25rem;
 }
 .main .splitter {
   text-align: center;
 }
 .main .splitter > img {
-  height: 40px;
+  height: 2.5rem;
 }
 .main .container {
   display: flex;
   background-color: white;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 1rem;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .zero{
   display: none;
 }
 .main .container .container-1 {
-  margin-left: 0px;
+  margin-left: 0rem;
   position: relative;
 }
 .main .container .container-2 {
   background-color: hsl(183, 100%, 15%);
-  min-width: 300px;
-  padding: 20px 20px;
+  min-width: 18.75rem;
+  padding: 1.25rem 1.25rem;
   border-radius: 0.5rem;
   position: relative;
-  margin-left: 50px;
+  margin-left: 3.125rem;
   
 }
 .main .container .container-2 .div-1 {
-  margin-bottom: 40px;
-  font-size: 25px;
+  margin-bottom: 2.5rem;
+  font-size: 1.5625rem;
   color: hsl(172, 67%, 45%);
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .div-2 {
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: hsl(172, 67%, 45%);
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .main .container .container-2 .stress {
   display: grid;
@@ -71,22 +71,22 @@ body {
   bottom: 10%;
   border-radius: 0.2rem;
   left: 15%;
-  height: 23px;
+  height: 1.4375rem;
   background-color: hsl(172, 67%, 45%);
-  width: 150px;
+  width: 9.375rem;
   text-align: center;
-  font-size: 14px;
-  padding-top: 2px;
-  margin-left: 50px;
+  font-size: 0.875rem;
+  padding-top: 0.125rem;
+  margin-left: 3.125rem;
 }
 #area1{
   background: url(images/icon-dollar.svg);
   background-repeat: no-repeat;
   text-align: right;
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: bold;
-  background-position: 10px;
+  background-position: 0.625rem;
 border-color: hsl(185, 41%, 94%);
   background-color: hsl(185, 41%, 94%);
   border-radius: 0.2rem;
@@ -94,74 +94,74 @@ border-color: hsl(185, 41%, 94%);
 .perc{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 15px;
-  margin-top: 10px;
-  grid-row-gap: 2px;
+  margin-bottom: 0.938rem;
+  margin-top: 0.625rem;
+  grid-row-gap: 0.125rem;
 }
 .perc5{
   background-color: hsl(183, 100%, 15%);
-  height: 30px;
-  width: 60px;
+  height: 1.875rem;
+  width: 3.75rem;
   text-align: center;
   border-radius: 0.2rem;
   color: white;
-  padding-top: 3px;
+  padding-top: 0.188rem;
     font-weight: bold;
 }
 .perc10{
   background-color: hsl(183, 100%, 15%);
-  height: 30px;
-  width: 60px;
+  height: 1.875rem;
+  width: 3.75rem;
   text-align: center;
   border-radius: 0.2rem;
   color: white;
-  padding-top: 3px;
-  margin-left: 3px;
+  padding-top: 0.188rem;
+  margin-left: 0.188rem;
     font-weight: bold;
 }
 .perc15{
   background-color: hsl(183, 100%, 15%);
-  height: 30px;
-  width: 60px;
+  height: 1.875rem;
+  width: 3.75rem;
   text-align: center;
   border-radius: 0.2rem;
   color: white;
-  padding-top: 3px;
-  margin-left: 5px;
+  padding-top: 0.188rem;
+  margin-left: 0.313rem;
     font-weight: bold;
 }
 .perc25{
   background-color: hsl(183, 100%, 15%);
-  height: 30px;
-  width: 60px;
+  height: 1.875rem;
+  width: 3.75rem;
   text-align: center;
   border-radius: 0.2rem;
   color: white;
-  padding-top: 3px;
+  padding-top: 0.188rem;
   font-weight: bold;
     font-weight: bold;
 }
 .perc50{
   background-color: hsl(183, 100%, 15%);
-  height: 30px;
-  width: 60px;
+  height: 1.875rem;
+  width: 3.75rem;
   text-align: center;
   border-radius: 0.2rem;
   color: white;
-  padding-top: 3px;
-  margin-left: 3px;
+  padding-top: 0.188rem;
+  margin-left: 0.188rem;
   font-weight: bold;
 }
 .custom{
   background-color:hsl(189, 41%, 97%);
-  height: 30px;
-  width: 60px;
+  height: 1.875rem;
+  width: 3.75rem;
   text-align: right;
   border-radius: 0.2rem;
   color:  hsl(186, 14%, 43%);
   font-weight: bold;
-  padding-top: 3px;
-  margin-left: 5px;
+  padding-top: 0.188rem;
+  margin-left: 0.313rem;
 }
 .custom:hover{
   border-color: hsl(172, 67%, 69%); 
@@ -172,7 +172,7 @@ border-color: hsl(185, 41%, 94%);
 #area2:hover{
   border-color: hsl(172, 67%, 69%);
 
-  border-width: 2px;
+  border-width: 0.125rem;
 }
 #area2{
   background: url(images/icon-person.svg);
@@ -180,7 +180,7 @@ border-color: hsl(185, 41%, 94%);
   background-repeat: no-repeat;
   text-align: right;
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: bold;
   border-color: hsl(185, 41%, 94%);;
   background-color: hsl(185, 41%, 94%);
@@ -217,60 +217,61 @@ border-color: hsl(185, 41%, 94%);
     flex-direction: column;
     background-color: white;
     border-radius: 1rem;
-    min-width: 100px;
+    min-width: 6.25rem;
+    margin-top: -0.313rem;
   } 
   .perc{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    grid-row-gap: 2px;
+    margin-bottom: 0.938rem;
+    margin-top: 0.625rem;
+    grid-row-gap: 0.0.125rem;
   }
   .perc5{
-    margin-left: 2px;
-    width: 60px;
+    margin-left: 0.125rem;
+    width: 3.75rem;
   }
   .perc10{
     margin-left: 1px;
-    width: 60px;
+    width: 3.75rem;
   }
   .perc15{
-    margin-left: 2px;
-    width: 60px;
+    margin-left: 0.125rem;
+    width: 3.75rem;
   }
   .perc50{
-    margin-left: 2px;
-    width: 60px;
+    margin-left: 0.125rem;
+    width: 3.75rem;
   }
   .perc25{
-    margin-left: 1px;
-    width: 60px;
+    margin-left: 0.063rem;
+    width: 3.75rem;
   }
   .custom{
-    margin-left: 1px;
-    width: 60px;
+    margin-left: 0.063rem;
+    width: 3.75rem;
   }
   .main .container .container-2 .reset {
-   width: 100px;
-   height: 30px;
-   padding-top: 3px;
-   margin-left: 18px;
+   width: 6.25rem;
+   height: 1.875rem;
+   padding-top: 0.1875rem;
+   margin-left: 1.125rem;
   }
   .main .container .container-2{
-    min-height: 200px;
-    margin-left: -5px;
-    min-width: 70px;
+    min-height: 12.5rem;
+    margin-left: -0.313rem;
+    min-width: 4.375rem;
   } 
   .main .container .container-2 .div-1 {
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
     color: hsl(172, 67%, 45%);
     margin-left: 10px;
   }
   .main .container .container-2 .div-2 {
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
     color: hsl(172, 67%, 45%);
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
  }
