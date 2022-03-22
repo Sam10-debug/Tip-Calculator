@@ -228,48 +228,48 @@ border-color: hsl(185, 41%, 94%);
   }
   .perc5{
     margin-left: 2px;
-    width: 120px;
+    width: 60px;
   }
   .perc10{
-    margin-left: 10px;
-    width: 120px;
+    margin-left: 1px;
+    width: 60px;
   }
   .perc15{
     margin-left: 2px;
-    width: 120px;
+    width: 60px;
   }
   .perc50{
     margin-left: 2px;
-    width: 120px;
+    width: 60px;
   }
   .perc25{
-    margin-left: 10px;
-    width: 120px;
+    margin-left: 1px;
+    width: 60px;
   }
   .custom{
-    margin-left: 10px;
-    width: 120px;
+    margin-left: 1px;
+    width: 60px;
   }
   .main .container .container-2 .reset {
-   width: 200px;
+   width: 100px;
    height: 30px;
    padding-top: 3px;
-   margin-left: -15px;
+   margin-left: 18px;
   }
   .main .container .container-2{
     min-height: 200px;
     margin-left: -5px;
-    min-width: 250px;
+    min-width: 70px;
   } 
   .main .container .container-2 .div-1 {
     margin-bottom: 40px;
-    font-size: 25px;
+    font-size: 20px;
     color: hsl(172, 67%, 45%);
     margin-left: 10px;
   }
   .main .container .container-2 .div-2 {
     margin-bottom: 40px;
-    font-size: 25px;
+    font-size: 20px;
     color: hsl(172, 67%, 45%);
     margin-left: 10px;
   }
