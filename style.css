@@ -116,7 +116,7 @@ border-color: hsl(185, 41%, 94%);
   border-radius: 0.2rem;
   color: white;
   padding-top: 3px;
-  margin-left: -35px;
+  margin-left: 3px;
     font-weight: bold;
 }
 .perc15{
@@ -127,7 +127,7 @@ border-color: hsl(185, 41%, 94%);
   border-radius: 0.2rem;
   color: white;
   padding-top: 3px;
-  margin-left: -70px;
+  margin-left: 5px;
     font-weight: bold;
 }
 .perc25{
@@ -149,7 +149,7 @@ border-color: hsl(185, 41%, 94%);
   border-radius: 0.2rem;
   color: white;
   padding-top: 3px;
-  margin-left: -35px;
+  margin-left: 3px;
   font-weight: bold;
 }
 .custom{
@@ -161,7 +161,7 @@ border-color: hsl(185, 41%, 94%);
   color:  hsl(186, 14%, 43%);
   font-weight: bold;
   padding-top: 3px;
-  margin-left: -70px;
+  margin-left: 5px;
 }
 .custom:hover{
   border-color: hsl(172, 67%, 69%); 
@@ -210,7 +210,7 @@ border-color: hsl(185, 41%, 94%);
 }
  @media screen and (max-width:600px){
    body{
-     font-size: 0.7rem;
+     font-size: 0.5rem;
    }
   .main .container {
     display: flex;
