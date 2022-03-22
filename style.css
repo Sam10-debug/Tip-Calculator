@@ -231,7 +231,7 @@ border-color: hsl(185, 41%, 94%);
     width: 120px;
   }
   .perc10{
-    margin-left: -25px;
+    margin-left: 10px;
     width: 120px;
   }
   .perc15{
@@ -243,22 +243,34 @@ border-color: hsl(185, 41%, 94%);
     width: 120px;
   }
   .perc25{
-    margin-left: -25px;
+    margin-left: 10px;
     width: 120px;
   }
   .custom{
-    margin-left: -25px;
+    margin-left: 10px;
     width: 120px;
   }
   .main .container .container-2 .reset {
-   width: 230px;
+   width: 200px;
    height: 30px;
    padding-top: 3px;
-   margin-left: -1px;
+   margin-left: -15px;
   }
   .main .container .container-2{
     min-height: 200px;
     margin-left: -5px;
-    min-width: 50px;
+    min-width: 250px;
   } 
+  .main .container .container-2 .div-1 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: hsl(172, 67%, 45%);
+    margin-left: 10px;
+  }
+  .main .container .container-2 .div-2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: hsl(172, 67%, 45%);
+    margin-left: 10px;
+  }
  }
