@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: hsl(185, 41%, 84%);
+}
+.main {
+  display: grid;
+  grid-gap: 20px;
+}
+.main .splitter {
+  text-align: center;
+}
+.main .splitter > img {
+  height: 40px;
+}
+.main .container {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 1rem;
+  margin-top: 30px;
+}
+.zero{
+  display: none;
+}
+.main .container .container-1 {
+  margin-left: 0px;
+  position: relative;
+}
+.main .container .container-2 {
+  background-color: hsl(183, 100%, 15%);
+  min-width: 300px;
+  padding: 20px 20px;
+  border-radius: 0.5rem;
+  position: relative;
+  margin-left: 50px;
+  
+}
+.main .container .container-2 .div-1 {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: hsl(172, 67%, 45%);
+  margin-left: 30px;
+}
+.div-2 {
+  font-size: 25px;
+  color: hsl(172, 67%, 45%);
+  margin-left: 30px;
+}
+.main .container .container-2 .stress {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.main .container .container-2 .stress > p {
+  color: white;
+}
+.lol {
+  color: hsl(185, 41%, 84%);
+}
+
+.main .container .container-2 .reset {
+  position: absolute;
+  bottom: 10%;
+  border-radius: 0.2rem;
+  left: 15%;
+  height: 23px;
+  background-color: hsl(172, 67%, 45%);
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 2px;
+}
+#area1{
+  background: url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  text-align: right;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background-position: 10px;
+border-color: hsl(185, 41%, 94%);
+  background-color: hsl(185, 41%, 94%);
+  border-radius: 0.2rem;
+}
+.perc{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  grid-row-gap: 2px;
+}
+.perc5{
+  background-color: hsl(183, 100%, 15%);
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: white;
+  padding-top: 3px;
+    font-weight: bold;
+}
+.perc10{
+  background-color: hsl(183, 100%, 15%);
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: white;
+  padding-top: 3px;
+  margin-left: -35px;
+    font-weight: bold;
+}
+.perc15{
+  background-color: hsl(183, 100%, 15%);
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: white;
+  padding-top: 3px;
+  margin-left: -70px;
+    font-weight: bold;
+}
+.perc25{
+  background-color: hsl(183, 100%, 15%);
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: white;
+  padding-top: 3px;
+  font-weight: bold;
+    font-weight: bold;
+}
+.perc50{
+  background-color: hsl(183, 100%, 15%);
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: white;
+  padding-top: 3px;
+  margin-left: -35px;
+  font-weight: bold;
+}
+.custom{
+  background-color:hsl(189, 41%, 97%);
+  height: 30px;
+  width: 60px;
+  text-align: right;
+  border-radius: 0.2rem;
+  color:  hsl(186, 14%, 43%);
+  font-weight: bold;
+  padding-top: 3px;
+  margin-left: -70px;
+}
+.custom:hover{
+  border-color: hsl(172, 67%, 69%); 
+}
+#area1:hover{
+  border-color: hsl(172, 67%, 69%);
+}
+#area2:hover{
+  border-color: hsl(172, 67%, 69%);
+
+  border-width: 2px;
+}
+#area2{
+  background: url(images/icon-person.svg);
+  background-position: 10px;
+  background-repeat: no-repeat;
+  text-align: right;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-color: hsl(185, 41%, 94%);;
+  background-color: hsl(185, 41%, 94%);
+  border-radius: 0.2rem;
+}
+.area2{
+  color: hsl(184, 14%, 56%)
+}
+
+.main .container .container-2 .reset:hover{
+  background-color: hsl(172, 67%, 69%);
+}
+.perc5:hover{
+  background-color: hsl(172, 67%, 59%);
+}
+.perc10:hover{
+  background-color: hsl(172, 67%, 59%);
+}
+.perc15:hover{
+  background-color: hsl(172, 67%, 59%);
+}
+.perc25:hover{
+  background-color: hsl(172, 67%, 59%);
+}
+.perc50:hover{
+  background-color: hsl(172, 67%, 59%);
+}
+ @media screen and (max-width:600px){
+  .main .container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 1rem;
+    margin-top: 30px;
+  } 
+  .perc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    grid-row-gap: 2px;
+  }
+  .perc5{
+    margin-left: 2px;
+    width: 80px;
+  }
+  .perc10{
+    margin-left: -65px;
+    width: 80px;
+  }
+  .perc15{
+    margin-left: 2px;
+    width: 80px;
+  }
+  .perc50{
+    margin-left: 2px;
+    width: 80px;
+  }
+  .perc25{
+    margin-left: -65px;
+    width: 80px;
+  }
+  .custom{
+    margin-left: -65px;
+    width: 80px;
+  }
+  .main .container .container-2 .reset {
+   width: 230px;
+   height: 30px;
+   padding-top: 3px;
+  }
+  .main .container .container-2{
+    min-height: 200px;
+    margin-left: -5px;
+    margin-right: 112px;
+  }
+ }
