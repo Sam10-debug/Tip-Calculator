@@ -259,5 +259,6 @@ border-color: hsl(185, 41%, 94%);
   .main .container .container-2{
     min-height: 200px;
     margin-left: -5px;
+    min-width: 50px;
   } 
  }
