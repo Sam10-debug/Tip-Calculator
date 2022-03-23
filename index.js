@@ -106,6 +106,7 @@ const resetfunc=()=>{
     document.getElementById("area1").value=""
     document.getElementById("area2").value=""
     document.querySelector('.custom').value=""
+    
 }
 perc5.addEventListener('click',perc5func)
 perc10.addEventListener('click',perc10func)
